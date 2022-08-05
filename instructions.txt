@@ -23,7 +23,7 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 
 5 - Dans le dossier ressource :
     a - placer votre dossier "direct_messages_media" de votre archive twitter
-    b - votre ou vos fichiers qui commencent par "direct-messages"
+    b - placer votre ou vos fichiers qui commencent par "direct-messages"
 6 -  Executer "script/organisation_données_avec_datetime.php" dans votre navigateur 
 	- si vous avez plusieurs fichiers  executez une premiere fois avec la ligne 17  puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
 7 - executer "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^)
