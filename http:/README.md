@@ -4,7 +4,8 @@ Prérequis : wamp, python, visual studio code
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
 
 2 Créer une base de données qui s'appellera "Twitter" avec une table de données qui s'appellera "datadm2" qui contiendra 8 colonnes
-  a - la  1ère   sera  "id" de type   bigint
+
+  a - la  1ère   sera  "id" de type   bigint 
   b - la  2ème sera  "id2" de type bigint
   c - la  3ème sera "datetimes" de type datetime
   d - la 4ème sera "er" de type  int
