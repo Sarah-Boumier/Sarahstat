@@ -1,6 +1,6 @@
 Prérequis : wamp, python, visual studio code
  
-1. Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
+1 - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
 
 2. Créer une base de données qui s'appellera "Twitter" avec une table de données qui s'appellera "datadm2" qui contiendra 8 colonnes
