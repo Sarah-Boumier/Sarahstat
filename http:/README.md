@@ -5,15 +5,15 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 
 2. Créer une base de données qui s'appellera "Twitter" avec une table de données qui s'appellera "datadm2" qui contiendra 8 colonnes
 
-	a. - la  1ère   sera  "id" de type   bigint 
-	b. - la  2ème sera  "id2" de type bigint
-	c. - la  3ème sera "datetimes" de type datetime
-  2.4. - la 4ème sera "er" de type  int
-  2.5. - la 5ème sera "message" de type  text
-  2.6. - la 6ème sera média de type text
-  2.7. - la 7ème sera  "id3" de type text
-  2.8. - la 8ème sera "minute" de type  int
-  2.9. - l'interclassement de la table  sera  "utf8_general_ci"
+	1. - la  1ère   sera  "id" de type   bigint 
+	2. - la  2ème sera  "id2" de type bigint
+	3. - la  3ème sera "datetimes" de type datetime
+	4. - la 4ème sera "er" de type  int
+	5. - la 5ème sera "message" de type  text
+	6. - la 6ème sera média de type text
+	7. - la 7ème sera  "id3" de type text
+	8. - la 8ème sera "minute" de type  int
+	9. - l'interclassement de la table  sera  "utf8_general_ci"
 
 3. - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
   3.1. - l'API_KEY 
