@@ -25,11 +25,8 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 3 - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
 
  	a - l'API_KEY 
-	
 	b - l'API_KEY_SECRET
-	
 	c - l'ACCESS_TOKEN
-	
 	d - l'ACCESS_TOKEN_SECRET
   
 4 - Les reporter dans les lignes 23 à 26 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
