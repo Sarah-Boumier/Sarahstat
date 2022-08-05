@@ -1,4 +1,4 @@
-Prérequis : wamp, python, visual studio code, Google chrome
+Prérequis : Wamp, Python, Visual Studio Code, Google Chrome
  
 1. - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
