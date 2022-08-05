@@ -14,14 +14,16 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
   i - l'interclassement de la table  sera  "utf8_general_ci"
 
 3 - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
-  a - l'API_KEY 
+ 	a - l'API_KEY 
 	b - l'API_KEY_SECRET
 	c - l'ACCESS_TOKEN
 	d - l'ACCESS_TOKEN_SECRET
   
-4 - Les reporter dans les lignes 23 à 26 entre les guillemets dans  discussion.php
+4 - Les reporter dans les lignes 23 à 26 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
 
 5 - Dans le dossier ressource :
-    a - placer votre dossier "direct_messages_media"
+    a - placer votre dossier "direct_messages_media" de votre archive twitter
     b - votre ou vos fichiers qui commencent par "direct-messages"
-6 -  
+6 -  Executer "script/organisation_données_avec_datetime.php" dans votre navigateur 
+	- si vous avez plusieurs fichiers  executez une premiere fois avec la ligne 17  puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
+7 - executer "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^)
