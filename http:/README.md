@@ -6,7 +6,7 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 2. Créer une base de données qui s'appellera "Twitter" avec une table de données qui s'appellera "datadm2" qui contiendra 8 colonnes
 
   1. - la  1ère   sera  "id" de type   bigint 
-  2.2. - la  2ème sera  "id2" de type bigint
+  2. - la  2ème sera  "id2" de type bigint
   2.3. - la  3ème sera "datetimes" de type datetime
   2.4. - la 4ème sera "er" de type  int
   2.5. - la 5ème sera "message" de type  text
