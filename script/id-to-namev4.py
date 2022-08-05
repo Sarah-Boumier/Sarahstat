@@ -7,7 +7,7 @@ try:
     mydb = MC.connect(host='localhost', database='twitter', user='root', password='')
     cursor = mydb.cursor()
 
-    requette = "SELECT id FROM id WHERE id NOT IN (SELECT id2 FROM id2)"
+    requette = "SELECT id2 FROM datadm2 WHERE id2 NOT IN (SELECT id FROM datadm2) GROUP BY id2"
     cursor.execute(requette)
     idlist = cursor.fetchall()
 except MC.Error as err :
