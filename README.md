@@ -23,5 +23,6 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 
 	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 17 puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
 	
-9. - Exécuter "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^)
+9. - Exécuter "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
 
+10. - Enfin  Executez recherche_entre_deux_dates/date_selection.php et voilà !
