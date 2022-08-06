@@ -54,7 +54,7 @@
 			<?php
 				while ($ligne = mysqli_fetch_array($req))
 				{
-				 	if ($ligne[$id] != 1392781795)
+				 	if ($ligne[$id] != $personal_id)
 				 	{
 				 		$idp = $ligne[$id];
 				 		?> 
