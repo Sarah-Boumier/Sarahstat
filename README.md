@@ -15,12 +15,12 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 4. - Les reporter dans les lignes 23 à 26 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
 
 5. - Dans le dossier ressource :
-	1. - Placer votre dossier "direct_messages_media" de votre archive twitter
-	2. - Placer votre ou vos fichiers qui commencent par "direct-messages"
+	1. - Placez votre dossier "direct_messages_media" de votre archive twitter
+	2. - Placez votre ou vos fichiers qui commencent par "direct-messages"
     
 6. - Exécuter "script/organisation_données_avec_datetime.php" dans votre navigateur 
 
-	- Si vous avez plusieurs fichiers  exécutez une première fois avec la ligne 17  puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
+	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 17 puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
 	
 7. - Exécuter "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^)
 
