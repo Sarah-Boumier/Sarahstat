@@ -75,7 +75,7 @@ while ($posid1 = strpos($page, "recipientId", $posid1))
 		$dt++;
 		$posdatetime++;
 	}
-	if ($valueid1 == 1392781795)
+	if ($valueid1 == $personal_id)
 		$er = 0;
 	else
 		$er = 1;
