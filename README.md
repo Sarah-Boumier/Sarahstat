@@ -1,11 +1,10 @@
 # Twitter
 Prérequis : Wamp, Python, Selenium, Google Chrome
 
-1. - Si ce n'est pas déjà le cas mettez la version la plus récente de Google Chrome
-2. - Telecharger Chromedriver ayant le même numéro de version que celle de Google Chrome
-3. - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
+1. - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
-
+2. - Si ce n'est pas déjà le cas mettez à jour votre Google Chrome pour avoir la version la plus récente.
+3. - Telecharger Chromedriver ayant le même numéro de version que celle de Google Chrome.
 4. - Executez "script/twitter_database_create.php"
 
 5. - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
