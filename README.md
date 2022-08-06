@@ -4,7 +4,7 @@ Prérequis : Wamp, Python, Visual Studio Code, Google Chrome
 1. - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
 
-2. Executez script/twitter_database_create.php
+2. - Executez "script/twitter_database_create.php"
 
 3. - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
 	1. - L'API_KEY 
