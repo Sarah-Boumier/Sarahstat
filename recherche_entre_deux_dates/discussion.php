@@ -20,7 +20,6 @@
 	$date2 = $_GET['date2'];
  	$id    = $_GET['id'];
 	$string =  $_GET['string'];		
-	$me  = "Alexandre (@Alexandre3004)";
 	$API_KEY = "";
 	$API_KEY_SECRET = "";
 	$ACCESS_TOKEN = "";
@@ -76,7 +75,7 @@ $date4 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date2)));
 		{
 			?>
 			<div class="div4elements">
-			<div class="photo"><img style="border-radius: 3px; object-fit: contain;" src="https://pbs.twimg.com/profile_images/656605984522158080/LZuOAY-o_normal.jpg" ></div>
+			<div class="photo"><img style="border-radius: 3px; object-fit: contain;" src="$link_pdp" ></div>
 			<div class="div3elements" id="div3el">
 			<div class="name"><?php echo $me;?></div>
 			<?php
