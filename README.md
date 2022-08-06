@@ -15,6 +15,15 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
   
 6. - Les reporter dans les lignes 23 à 26 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
 
+7 . - Dans le fichier "ressource/variable globale.php" renseignez :
+	1. - $personal_id (l'id de votre compte twitter)
+	2. - $link_pdp (le lien de votre photo de profil twitter) : 
+		1. allez sur votre profil 
+		2. cliquez sur votre photo de profil
+		3. faites un clique droit et selectionner copier l'adresse du lien
+		4. coller le tout entre les guillemets 
+		5. changez la partie "400*400" en  "normal"
+	3. - $me (votre pseudo suivi d'une parenthese ouvrante suivi  d'un "@" suivi de votre handle suivi d'une parenthese fermante)
 7. - Dans le dossier ressource :
 	1. - Placez votre dossier "direct_messages_media" de votre archive twitter
 	2. - Placez votre ou vos fichiers qui commencent par "direct-messages"
