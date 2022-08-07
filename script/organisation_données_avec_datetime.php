@@ -7,10 +7,9 @@
 </head>
 <body >
 	<?php
-	
-	$localhost = "localhost";
-	$root = "root";
-
+include '../ressource/variable globale.php';	
+$localhost = "localhost";
+$root = "root";
 $conn = new mysqli($localhost, $root, '');
 $db_select =  mysqli_select_db($conn, 'twitter');
 
