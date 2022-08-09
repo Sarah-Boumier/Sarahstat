@@ -23,7 +23,6 @@ while ($posid1 = strpos($page, "recipientId", $posid1))
 	$posid2 = strpos($page, "senderId", $postext) +13;
 	$id = strpos($page, "id", $posid2) +7;
 	$posdatetime = strpos($page, "createdAt", $posid2) + 14;
-	
 	$datetime = "";
 	$mediaurl ="";
 	$dt = 0;
