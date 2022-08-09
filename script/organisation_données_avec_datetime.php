@@ -1,12 +1,4 @@
-<!DOCTYPE html >
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="twitter.css" />
-	<meta charset="utf-8">
-</head>
-<body >
-	<?php
+<?php
 include '../ressource/variable globale.php';	
 $localhost = "localhost";
 $root = "root";
