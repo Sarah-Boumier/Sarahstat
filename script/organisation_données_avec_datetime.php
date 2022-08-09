@@ -1,8 +1,6 @@
 <?php
 include '../ressource/variable globale.php';	
-$localhost = "localhost";
-$root = "root";
-$conn = new mysqli($localhost, $root, '');
+$conn = new mysqli("localhost", "root", '');
 $db_select =  mysqli_select_db($conn, 'twitter');
 
 mysqli_query($conn, "DELETE FROM datadm2");
