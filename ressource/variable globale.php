@@ -1,4 +1,5 @@
 <?php
-	$personal_id =  ;
-	$link_pdp = "";
-	$me  = "";
+
+$personal_id = '';
+$link_pdp = '';
+$me  = '';
