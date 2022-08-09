@@ -79,7 +79,7 @@ while ($posid1 = strpos($page, "recipientId", $posid1))
 	else
 		$er = 1;
 	$minuteoftheday  = (strtotime($datetime) / 60) % 1440;
-	$datetime = date('Y-m-d H:i:s', strtotime($datetime)); // convertir mon  2019-06-12T18:07:45.365Z en format valide pour la table mysql de type date
+	$datetime = date('Y-m-d H:i:s', strtotime($datetime));
 		$textcontent =  mysqli_real_escape_string($conn, $textcontent);
 	mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 	$req =  mysqli_query($conn, "INSERT INTO datadm2  VALUES ($valueid1, $valueid2, '$datetime', $er, '$textcontent', '$mediaurl', $valueid3, $minuteoftheday)");
