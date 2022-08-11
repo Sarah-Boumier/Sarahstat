@@ -6,8 +6,9 @@ import mysql.connector as MC
 try:
     mydb = MC.connect(host='localhost', database='twitter', user='root', password='')
     cursor = mydb.cursor()
+    my_id =
 
-    requette = "SELECT t1.id, count(t1.id) FROM ( SELECT id from datadm2 where id != '871066677819183104' UNION ALL SELECT id2 from datadm2 where id2 != '871066677819183104') AS t1 GROUP by id ORDER by count(*) DESC"
+    requette = "SELECT t1.id, count(t1.id) FROM ( SELECT id from datadm2 where id != 'my_id' UNION ALL SELECT id2 from datadm2 where id2 != 'my_id') AS t1 GROUP by id ORDER by count(*) DESC"
     cursor.execute(requette)
     idlist = cursor.fetchall()
 except MC.Error as err :
