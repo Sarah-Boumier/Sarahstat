@@ -66,6 +66,9 @@ while ($posid1 = strpos($page, "recipientId", $posid1))
 		$er = 0;
 	else
 		$er = 1;
+	$schedule_date = new DateTime($datetime, new DateTimeZone('UTC'));
+	$schedule_date->setTimeZone(new DateTimeZone('Europe/Paris'));
+	$datetime =  $schedule_date->format('Y-m-d H:i:s');
 	$minuteoftheday  = (strtotime($datetime) / 60) % 1440;
 	$datetime = date('Y-m-d H:i:s', strtotime($datetime));
 		$textcontent =  mysqli_real_escape_string($conn, $textcontent);
