@@ -36,6 +36,7 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 	- $page = file_get_contents($url);
 	- après : 
 	- $page = file_get_contents($url2);
-11. - Exécuter "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
+11. - Dans "script/id-to-namev4.py" renseignez votre id en ligne 9 
+12. - Exécuter "script/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
 
-12. - Enfin  Executez recherche_entre_deux_dates/date_selection.php et voilà !
+13. - Enfin  Executez recherche_entre_deux_dates/date_selection.php et voilà !
