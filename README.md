@@ -27,11 +27,15 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 	3. - $me (votre pseudo suivi d'une parenthese ouvrante suivi  d'un "@" suivi de votre handle suivi d'une parenthese fermante)
 9. - Dans le dossier ressource :
 	1. - Placez votre dossier "direct_messages_media" de votre archive twitter
-	2. - Placez votre ou vos fichiers qui commencent par "direct-messages"
+	2. - Placez votre ou vos fichiers qui commencent par "direct-messages.js" ou "direct-messages-part"
     
 10. - Exécuter "script/organisation_données_avec_datetime.php" dans votre navigateur 
 
-	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 17 puis pour les autres fichier  il faudra la commenter en mettant le nom exact en 	ligne 19.
+	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 17 puis pour les autres fichiers  il faudra la commenter en mettant le nom exact en 	ligne 19 puis rajoutez un "2" à la ligne 20.
+	- avant : 
+	- $page = file_get_contents($url);
+	- après : 
+	- $page = file_get_contents($url2);
 11. - Exécuter "ressource/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
 
 12. - Enfin  Executez recherche_entre_deux_dates/date_selection.php et voilà !
