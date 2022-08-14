@@ -30,12 +30,6 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 	2. - Placez votre ou vos fichiers qui commencent par "direct-messages.js" ou "direct-messages-part"
     
 10. - Exécuter "script/organisation_données_avec_datetime.php" dans votre navigateur 
-
-	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 3 puis pour les autres fichiers  il faudra la commenter en mettant le nom exact en 	ligne 4 puis rajoutez un "2" à la ligne 5.
-	- avant : 
-	- $page = file_get_contents($url);
-	- après : 
-	- $page = file_get_contents($url2);
 11. - Dans "script/id-to-namev4.py" renseignez votre id en ligne 9 
 12. - Exécuter "script/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
 
