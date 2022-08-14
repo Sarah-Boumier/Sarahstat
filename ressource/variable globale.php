@@ -3,5 +3,5 @@
 	$link_pdp = "";
 	$me  = "";
 	$conn = new mysqli('localhost', 'root', '');
-	$db_select =  mysqli_select_db($conn, 'twitter2');
+	$db_select =  mysqli_select_db($conn, 'twitter');
 ?>
