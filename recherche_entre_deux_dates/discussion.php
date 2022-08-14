@@ -14,8 +14,6 @@
 	include '../ressource/variable globale.php';
 	$nbimg = 1;
 	$time_start = microtime(true);
-	$conn = new mysqli('localhost', 'root', '');
-	$db_select =  mysqli_select_db($conn, 'twitter');
 	$date1 = $_GET['date1'];
 	$date2 = $_GET['date2'];
  	$id    = $_GET['id'];
@@ -252,8 +250,6 @@ function link_to_name($name)
 	}
 	 $time_end = microtime(true);
 	 $time = $time_end - $time_start;
-    echo "Process Time: {$time}";
-
 ?>
 
 </body>
