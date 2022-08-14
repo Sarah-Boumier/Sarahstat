@@ -31,7 +31,7 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
     
 10. - Exécuter "script/organisation_données_avec_datetime.php" dans votre navigateur 
 
-	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 17 puis pour les autres fichiers  il faudra la commenter en mettant le nom exact en 	ligne 19 puis rajoutez un "2" à la ligne 20.
+	- Si vous avez plusieurs fichiers exécutez une première fois avec la ligne 3 puis pour les autres fichiers  il faudra la commenter en mettant le nom exact en 	ligne 19 puis rajoutez un "2" à la ligne 20.
 	- avant : 
 	- $page = file_get_contents($url);
 	- après : 
