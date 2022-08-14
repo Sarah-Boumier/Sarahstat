@@ -1,7 +1,5 @@
 <?php
 include '../ressource/variable globale.php';	
-$conn = new mysqli("localhost", "root", '');
-$db_select =  mysqli_select_db($conn, 'twitter');
 mysqli_query($conn, "DELETE FROM datadm2");
 $url  = 'C:\wamp64\www\Twitter\ressource\direct-messages.js';
 $url2 = 'C:\wamp64\www\Twitter\ressource\direct-messages-part1.js';
