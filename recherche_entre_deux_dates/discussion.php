@@ -21,10 +21,10 @@
 	$date2 = $_GET['date2'];
  	$id    = $_GET['id'];
 	$string =  $_GET['string'];		
-	$API_KEY = "IKne3kAf5vFJH2liKEsWFCeE1";
-	$API_KEY_SECRET = "7zIFT9nJnPtMMzbdz3y0xxQMVjYOeIzYKQgdNZHrKLbQHQfiJY";
-	$ACCESS_TOKEN = "1357458126-CFGKPV3UCCsHxdkHDga1ubRjpMkQ2J07zeEdTWm";
-	$ACCESS_TOKEN_SECRET = "1D3R0KW6SkWUTa9f4ZfDvyGP1mbt7WKlAzo0fG52DAacQ";
+	$API_KEY = "";
+	$API_KEY_SECRET = "";
+	$ACCESS_TOKEN = "";
+	$ACCESS_TOKEN_SECRET = "";
 	$connexion = new TwitterOauth($API_KEY, $API_KEY_SECRET, $ACCESS_TOKEN, $ACCESS_TOKEN_SECRET);
 	$content = $connexion->get("account/verify_credentials");
 	$username = $connexion->get('statuses/user_timeline', ['id' =>$id, 'exclude_replies' => true, 'count' => 1]);
