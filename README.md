@@ -12,7 +12,7 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 	3. - L'ACCESS_TOKEN
 	4. - L'ACCESS_TOKEN_SECRET
   
-6. - Les reporter dans les lignes 23 à 26 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
+6. - Les reporter dans les lignes 24 à 27 entre les guillemets dans  "recherche_entre_deux_dates/discussion.php"
 
 7. - Dans le fichier "ressource/variable globale.php" renseignez :
 	1. - $personal_id (l'id de votre compte twitter)
