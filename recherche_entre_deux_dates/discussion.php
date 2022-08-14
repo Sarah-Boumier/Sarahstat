@@ -108,8 +108,7 @@ $date4 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date2)));
 			<div class="date" ><?php echo $date1; ?></div></div></div>
 			<?php
 		}
-		 $index2++;
-		
+		 $index2++;	
 	}
 	
 function kodex_create_links($string)
