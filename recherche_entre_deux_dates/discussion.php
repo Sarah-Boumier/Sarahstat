@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html >
 <head>
-
 	<link rel="stylesheet" type="text/css" href="discussion.css">
 	<title>discussion</title>
 	<meta charset="UTF-8">
@@ -12,6 +11,10 @@
 	
 <?php
 	include '../ressource/variable globale.php';
+	require "twitteroauth/autoload.php";
+	require "ca-bundle/src/CABUndle.php";
+	use Abraham\TwitterOAuth\TwitterOauth;
+	
 	$nbimg = 1;
 	$time_start = microtime(true);
 	$date1 = $_GET['date1'];
@@ -22,11 +25,6 @@
 	$API_KEY_SECRET = "";
 	$ACCESS_TOKEN = "";
 	$ACCESS_TOKEN_SECRET = "";
-
-	require "twitteroauth/autoload.php";
-	require "ca-bundle/src/CABUndle.php";
-	use Abraham\TwitterOAuth\TwitterOauth;
-	
 	$connexion = new TwitterOauth($API_KEY, $API_KEY_SECRET, $ACCESS_TOKEN, $ACCESS_TOKEN_SECRET);
 	$content = $connexion->get("account/verify_credentials");
 	$username = $connexion->get('statuses/user_timeline', ['id' =>$id, 'exclude_replies' => true, 'count' => 1]);
@@ -68,7 +66,6 @@ $date4 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date2)));
 		$date = date_create($ligne['datetimes']);
 		setlocale(LC_TIME, "FRENCH");
 		$date1 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($ligne['datetimes']))); 
-
 		if ($ligne['id2'] == $personal_id)
 		{
 			?>
@@ -122,7 +119,6 @@ function kodex_create_links($string)
 }
 function new_line($string)
 {
-
 	$i = 0;
 	while($i < strlen($string)) 
 	{
@@ -171,86 +167,85 @@ function delete_guillemet($string)
 	return $newstring;
 }
 function link_to_name($name)
+{
+	$newname = "";
+	$i = 1;
+	$nbslash = 0;
+	$inn = 0;
+	while($nbslash < 4)
 	{
-		$newname = "";
-		$i = 1;
-		$nbslash = 0;
-		$inn = 0;
-		while($nbslash < 4)
-		{
-			if ($name[$i] == '/')
-				$nbslash++;
-			$i++;
-		}
-		while ($name[$i] != '/')
-		{
-			$newname[$inn] = $name[$i];
-			$i++;
-			$inn++;
-		}
+		if ($name[$i] == '/')
+			$nbslash++;
 		$i++;
-		while ($name[$i] != '/')
+	}
+	while ($name[$i] != '/')
+	{
+		$newname[$inn] = $name[$i];
 		$i++;
-		$newname[$inn] = '-';
 		$inn++;
+	}
+	$i++;
+	while ($name[$i] != '/')
+	$i++;
+	$newname[$inn] = '-';
+	$inn++;
+	$i++;
+	while($name[$i] != '"')
+	{
+		$newname[$inn] = $name[$i];
 		$i++;
-		while($name[$i] != '"')
-		{
-			$newname[$inn] = $name[$i];
-			$i++;
-			$inn++;
-		}
-		return($newname);
+		$inn++;
 	}
-	function video_to_name($video, $id)
+	return($newname);
+}
+function video_to_name($video, $id)
+{
+	$nb = strlen($id);
+	$i = 0;
+	$inn = 0;
+	$nbslash =0;
+	while($nbslash < 5)
 	{
-		$nb = strlen($id);
-		$i = 0;
-		$inn = 0;
-		$nbslash =0;
-		while($nbslash < 5)
-		{
-			if ($video[$i] == '/')
-				$nbslash++;
-			$i++;
-		}
-			$i--;
-			$id[$nb] = '-';
-			$i++;
-			$nb++;
-		while ($video[$i] != '"')
-		 {
-		 	$id[$nb] = $video[$i];
-		 	$nb++;
-		 	$i++;
-		 }
-		 return ($id);
+		if ($video[$i] == '/')
+			$nbslash++;
+		$i++;
 	}
-	function video_mp4_tag1($string, $id)
+		$i--;
+		$id[$nb] = '-';
+		$i++;
+		$nb++;
+	while ($video[$i] != '"')
+	 {
+	 	$id[$nb] = $video[$i];
+	 	$nb++;
+	 	$i++;
+	 }
+	return ($id);
+}
+function video_mp4_tag1($string, $id)
+{
+	$nb_slash = 0;
+	$a = 0;
+	
+	while($nb_slash < 7)
 	{
-		$nb_slash = 0;
-		$a = 0;
-
-		while($nb_slash < 7)
-		{
-			if ($string[$a] == '/')
-				$nb_slash++;
+		if ($string[$a] == '/')
+			$nb_slash++;
 			$a++;
-		}
-		$nbid = strlen($id);
-		$id[$nbid] = '-';
+	}
+	$nbid = strlen($id);
+	$id[$nbid] = '-';
+	$nbid++;
+	while ($string[$a] != '?')
+	{
+		$id[$nbid] = $string[$a];
 		$nbid++;
-		while ($string[$a] != '?')
-		{
-			$id[$nbid] = $string[$a];
-			$nbid++;
-			$a++;
-		}
-		return ($id);
+		$a++;
 	}
-	 $time_end = microtime(true);
-	 $time = $time_end - $time_start;
+	return ($id);
+}
+$time_end = microtime(true);
+ $time = $time_end - $time_start;
 ?>
-
 </body>
 </html>
