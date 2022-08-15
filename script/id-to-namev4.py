@@ -19,8 +19,8 @@ finally:
         cursor.close()
         mydb.close()
 
-if os.path.exists("bdd7983.txt"):
-  os.remove("bdd7983.txt")
+if os.path.exists("../ressource/bdd2703.txt"):
+  os.remove("bdd2703.txt")
 else:
   print("The file does not exist")
 
