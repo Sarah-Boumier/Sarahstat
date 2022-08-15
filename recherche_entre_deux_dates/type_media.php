@@ -8,9 +8,9 @@ function growUp(nbimg, nb)
 	var img = document.getElementById(nbimg);
 	div1.classList.add("divgrow");
 	if (nb == 1)
-	img.classList.add('imggrow');
+		img.classList.add('imggrow');
 	if (nb == 2)
-	img.classList.add('imggrow2');	
+		img.classList.add('imggrow2');	
 	img.classList.remove('conv_img');
 	
 	window.addEventListener('keydown', event =>
