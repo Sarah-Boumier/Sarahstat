@@ -9,7 +9,7 @@
 	
 	<h1 class="h1n1"><a href="../page principale.php" style="margin: auto">Sarahstat</a></h1>
 	<?php
-	$text = 'C:\wamp64\www\Twitter\ressource\bdd2703.txt';
+ 	$text = '../ressource/bdd2703.txt';
 	$texte = file_get_contents($text);
 
 	?>
