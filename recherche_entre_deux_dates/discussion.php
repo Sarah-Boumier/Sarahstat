@@ -39,8 +39,7 @@
 	}
 			if (empty($username))
 					$image = "http://pbs.twimg.com/profile_images/1453393797073842179/23OQI5fp_normal.jpg";
-
-	setlocale(LC_TIME, "FRENCH");
+setlocale(LC_TIME, "FRENCH");
 $date3 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date1)));
 $date4 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date2)));
 
@@ -242,8 +241,6 @@ function video_mp4_tag1($string, $id)
 	}
 	return ($id);
 }
-$time_end = microtime(true);
- $time = $time_end - $time_start;
 ?>
 </body>
 </html>
