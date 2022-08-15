@@ -49,14 +49,13 @@ $date4 = utf8_encode(strftime("%A %d %B %G  %H:%M:%S", strtotime($date2)));
 <?php
 	mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 	if ($_GET['ert'] == 'Envoyés')
-		$req1 = mysqli_query($conn, "SELECT id2,id3,message,datetimes FROM datadm2 where datetimes BETWEEN '$date1' AND '$date2' AND id = $id ORDER BY datetimes ASC ");
+		$req1 = mysqli_query($conn, "SELECT id2,id3,media, message,datetimes FROM datadm2 where datetimes BETWEEN '$date1' AND '$date2' AND id = $id ORDER BY datetimes ASC ");
 	else if ($_GET['ert'] == 'Reçus')
-		$req1 = mysqli_query($conn, "SELECT id2,id3,message,datetimes FROM datadm2 where datetimes BETWEEN '$date1' AND '$date2' AND id2 = $id ORDER BY datetimes ASC ");
+		$req1 = mysqli_query($conn, "SELECT id2,id3,media,message,datetimes FROM datadm2 where datetimes BETWEEN '$date1' AND '$date2' AND id2 = $id ORDER BY datetimes ASC ");
 	else// ($_GET['ert'] == 'Totaux')
 	{
 		mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 		$req1 = mysqli_query($conn, "SELECT id,id2,id3,media, message,datetimes FROM datadm2 where id = $id AND  datetimes BETWEEN '$date1' AND '$date2' OR id2 = $id AND datetimes BETWEEN '$date1' AND '$date2' ORDER BY datetimes ASC");
-		//var_dump($req1);
 	$nbline = mysqli_num_rows($req1);
 	}
 	$index2 = 0;
