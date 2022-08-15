@@ -20,11 +20,11 @@ finally:
         mydb.close()
 
 if os.path.exists("../ressource/bdd2703.txt"):
-  os.remove("bdd2703.txt")
+  os.remove("../ressource/bdd2703.txt")
 else:
   print("The file does not exist")
 
-f = codecs.open("bdd7983.txt", "x", "utf-8")
+f = codecs.open("../ressource/bdd2703.txt", "x", "utf-8")
 
 driver = webdriver.Chrome(executable_path=r"chromedriver.exe")
 driver.get(r"https://virtualfollow.com")
