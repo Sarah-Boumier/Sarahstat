@@ -31,4 +31,4 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 10. - Dans "script/id-to-namev4.py" renseignez votre id en ligne 9 
 11. - Exécutez "script/id-to-namev4.py" (ça peut prendre du temps si vous parlez à beaucoup de gens^^
 
-12. - Enfin  Executez recherche_entre_deux_dates/date_selection.php et voilà !
+12. - Enfin doublie cliquez sur start.bat et voilà !
