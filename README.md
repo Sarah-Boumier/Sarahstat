@@ -5,7 +5,7 @@ Prérequis : Wamp, Google Chrome,  Windows
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
 2. - Dans : wamp64/www creez un dossier "Twitter" puis placez le contenu de ce projet dedans
 3. - Creer un compte twitter developpeur (https://developer.twitter.com/en)  si ce n'est déjà fait
-4 . Creer une application puis obtenez et notez bien precieusement
+4. -Creer une application puis obtenez et notez bien precieusement
 	1. - L'API_KEY 
 	2. - L'API_KEY_SECRET
 	3. - L'ACCESS_TOKEN
