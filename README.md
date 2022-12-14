@@ -14,4 +14,4 @@ votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'
 	1. - Placez votre fichier "direct_messages_media" de votre archive twitter
 	2. - Placez votre ou vos fichiers qui commencent par "direct-messages.js" ou "direct-messages-part"
     
- 5. - Exécuter "Initialisation.bat" dans votre navigateur
+ 5. - Exécutez "Initialisation.bat" 
