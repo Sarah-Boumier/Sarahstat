@@ -1,0 +1,241 @@
+progress {
+  background-color:  #14E237;
+}
+
+progress::-moz-progress-bar 
+{
+	background: red;
+}
+progress::-webkit-progress-value 
+{ 
+ background:  #14E237;
+}
+.container
+{
+	width: 330px;
+	height: 100px;
+	background: #CFD5D5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 80px;
+	border: ridge;
+	margin-inline: auto;
+}
+.container2
+{
+	width: 300px;
+	height: 140px;
+	display: flex;
+	background: #CFD5D5;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+	border: ridge;
+	margin-inline: auto;
+}
+.container3
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0%;
+}
+.text1
+{
+	font-size: 8px;
+	font-family: monospace;
+}
+.text2
+{
+	font-size: 8px;
+	font-family: monospace;
+	margin-left: 45px;
+}
+.textimportant
+{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-bottom: 10px;
+}
+.textimportant2
+{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+.textimportant3
+{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: -35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.titre1
+{
+    color: azure;
+    font-size: 19px;
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+}
+.content
+{
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-inline: auto;
+}
+.bluebar
+{
+    width: inherit;
+    height: 14px;
+    margin-bottom: 5px;
+    display: flex;
+    align-self: flex-start;
+    background-color: #000FFF;
+    border-color: white;
+    border-width: 1px;
+}
+.programname
+{
+	    color: azure;
+    font-size: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.imagetext
+{
+	display: flex;
+}
+.image
+{
+    margin-top: 15px;
+}
+.image2
+{
+    margin-top: 15px;
+}
+.seconde
+{
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: 5px;
+}
+.seconde3
+{
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.barettexte
+{
+	    display: flex;
+    flex-flow: wrap;
+    margin-top: 5px;
+    margin-left: 15%;
+}
+.information
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+.fin
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.btn
+{
+    width: 60px;
+    height: 16px;
+    margin-left: 200px;
+    margin-top: 5px;
+    font-size: 9px;
+}
+.content3
+{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -5px;
+    margin-top: -15px;
+    width: 280px;
+}
+.image3
+{
+	margin-top: 15px;
+    margin-left: 226px;
+}
+.infos
+{
+	margin-top: -7px;
+}
+.checkbox
+{
+	display: flex;
+    align-items: center;
+}
+.checkboxg
+{
+	margin-top: 15px;
+}
+.label
+{
+	font-size: 9px;
+}
+.input
+{
+	    height: 10px;
+    font-size: 8px;
+    width: 245px;
+}
+.idkey
+{
+	display: flex;
+    flex-direction: unset;
+    align-items: baseline;
+}
+.container0
+{
+    width: 420px;
+    height: 180px;
+    background: #CFD5D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    border: ridge;
+    margin-inline: auto;
+}
+.key
+{
+	margin-left: 5px;
+	width: 240px;
+}
+.bouton
+{
+	display: flex;
+	margin-left: 130px;
+	margin-top: 15px;
+	font-size: 10px;
+}
+.bouton-vert
+{
+	width: 100px;
+    margin-left: 34px;
+    font-size: 10px;
+    height: 17px;
+}
+.formulaire
+{
+	display: flex;
+    flex-direction: column;
+}
