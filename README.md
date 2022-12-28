@@ -4,7 +4,7 @@ Prérequis : Wamp,Google Chrome, Windows
 1. - Depuis votre compte twitter, Allez dans "plus" puis "paramètres et confidentialité" puis cliquez sur  "Télécharger une archive de vos données" rentrez 
 votre mot de passe pour valider la demande cela va prendre environ 24h avant qu'elle soit prête à être téléchargée.
 2. - Dans : wamp64/www créez un dossier "Twitter" puis placez le contenu de ce projet dedans.
-3. - Créer un compte twitter developpeur et creer une application (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
+3. - Créez un compte twitter developpeur et creer une application (https://developer.twitter.com/en)  si ce n'est déjà fait puis obtenez et notez bien précieusement: 
 	1. - L'API_KEY 
 	2. - L'API_KEY_SECRET
 	3. - L'ACCESS_TOKEN
